@@ -1,0 +1,18 @@
+-Show start screen
+    -if click play button switch to basic game screen
+        -hide start game
+        -show basic game
+        -set pet stats 0 (hunger, boredom, etc..)
+        -start time counting
+            -hunger increase - 5sec
+            -boredome increase - 6 sec
+            -age increase - 1min
+                -if all maxed (not age) (100), game over pet dies
+                    -show game over and start play again screen
+                -age increase changes pet image
+                    age 0-9 = baby
+                    age 10-19 = child
+                    age 20-29 = teen
+                    age 30-100 = adult
+        -add event listeners to buttons for feed/play
+            -decrement hunger/boredom on click
