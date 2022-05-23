@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Tamagotchi</h1>
+    </header>
+    <main class="game-container">
+        <div class="stats">
+            <div class="stat-bar">Age: <br><span id="age">0</span></div>
+            <div class="stat-bar">Hunger: <br><span id="hunger">0</span></div>
+            <div class="stat-bar">Boredom: <br><span id="boredom">0</span></div>
+            <div class="stat-bar">Sleepiness: <Br><span id="sleepiness">0</span></div>
+        </div>
+        <div class="pet">
+           
+        </div>
+        <div class="play-area">
+            <button class="play-buttons" id="feed">Feed</button>
+            <button class="play-buttons" id="play">Play</button>
+            <button class="play-buttons" id="nap">Nap</button>
+        </div>
+    </main>
+    <footer></footer>
+    <section class="modal-container modal-welcome">
+        <div class="modal-inner">
+            <h2>Welcome to Tamagotchi!</h2>
+            <p>
+                Click "play" to get started. Maintain hunger, boredom, and sleepiness below 100 to keep your pet alive.
+            </p>
+            <button id="start-game">play</button>
+        </div>
+    </section>
+    <section class="modal-container modal-welcome hide">
+        <div class="modal-inner">
+            <h2>Welcome to Tamagotchi!</h2>
+            <p>
+                Click "play" to get started. Maintain hunger, boredom, and sleepiness below 100 to keep your pet alive.
+            </p>
+            <button>play</button>
+        </div>
+    </section>
+    <script src="/js/script.js"></script>
+</body>
+</html>
